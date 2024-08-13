@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block content %}
+ <h2 class="linear-graaa" style=" background-color: linear-gradient(90deg , #2944da,#527fb9 , #40b0e4);font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 50PX;"> Weather of MOROCCO <img src="static/images/say_HI.gif" width="18%"> </h2><br><br>
+
+    <DIV class="GLOBAaLE" >
+        <DIV class="DIV11">
+            <main id="weather"><br><br>
+
+    <form action="{{ url_for('gfg')}}" method="post" >
+
+         <h5 style="color:rgb(238, 245, 245) ; "> donnez le nom de ville :</h5><br>
+         <input type="text" id="ville" name="ville" placeholder="name of city" ><br><br>
+        <h5 style="color:rgb(243, 235, 235)"> donnez le jour :</h5> <br><br>
+         <input type="text" id="jour" name="jour"  placeholder="y-m-d"><br><br><br>
+         <input type="submit" value ="envoyer" class='my-button'>
+       
+    </form>
+</main>
+</DIV>
+
+    <DIV class="DIV22"></DIV>
+   
+    <p>
+        <!-- <img src="static/map_mO.png" plt="this  is image " width="50%"> -->
+    </p>
+</DIV>
+
+    
+{% endblock content %}

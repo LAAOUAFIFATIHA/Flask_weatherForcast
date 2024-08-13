@@ -1,0 +1,135 @@
+{% extends "layout.html" %}
+{% block content %}
+
+
+
+
+
+
+<!-- 
+
+
+  <DIV class="GLOBALE">
+  <DIV class="DIV1">
+<form action="{{ url_for('gfg')}}" method="post">
+
+ donnez le nom de ville :
+  <input type="text" id="ville" name="ville" >
+  <input type="submit" value ="envoyer">
+
+</form>
+
+</DIV>
+
+
+
+<DIV class="DIV2"> -->
+   
+
+<main class="bluecolor">
+
+  <h1  class="linear-gra">Météo de {{ville}}</h1><br><br>
+
+
+
+
+<div class="GLOBALE " class="bluecolor" >
+
+  <div class="DIV1" class="border" >
+  <p style="border: solid; border-radius: 8px;border-color: #40b0e4; background-color: rgb(98, 98, 179); height: 210px;" >  <gras><strong>{{nhar}}</strong></gras>  <span class="color_sun"> {{ newlyouma }} </span><br>
+  <img src=" {{ url_for('static',filename =listdict[0]['image'])  }}"  alt="image" width="30%" height="20%"> <span id="bor" style="color:rgb(207, 34, 34);">{{listdict[0]['temperature'][:4]}}° <br>  <span style="color: rgb(16, 12, 212);font-size: 20px;padding:10px;">{{listdict[0]['rain']}}mm</span>
+    </span>
+    
+</p>
+    
+  </div> 
+
+    {% for i in range(1,7)%}
+        <div class="DIV2" style="background-color: rgb(178, 178, 218);">                
+                  <p >  <gras style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> {{ listdict[i]['jour'] }} </gras>  </p>
+                      <img src=" {{ url_for('static',filename =listdict[i]['image'])  }}"  alt="image" width="40%" height="15%"> <span id="bor"  style="color:rgb(207, 34, 34); font-size: 18px;">{{listdict[i]['temperature']}}°</span></p>
+                  
+                    <p ><h6>{% if listdict[i]['rain'] !=0.0 %}
+                           <img src="static/images/umbrella.png" alt="faux " width="20%">
+                           <p style="color: blue;"> {{listdict[i]['rain']}}mm</p>
+                           {% else %}
+                    </h6></p>
+                    <p style="color: blue;"> {{listdict[i]['rain']}}mm</p>
+                    {% endif %}
+                    <!-- <p><h6>{{listdict[i]['cloud']}}%</h6></p> -->
+                    <h6 style="color: rgb(248, 246, 245);">{{listdict[i]['wind']}}   km/h</h6>
+                    <!-- bonne {{listeprog[i]}}
+                    mauvaise {{listeprom[i]}} -->
+                    {% if listeprog[i] != 0.00  and listeprog[i] > listeprom[i] %}
+                    <p style="color: green; font-family: Arial, Helvetica, sans-serif;">bonne </p>
+                    {% elif listeprog[i]    and listeprog[i] < listeprom[i]%}
+                    <p style="color: red ; font-family: Arial, Helvetica, sans-serif;"> mauvaise</p>
+                    {% else %}
+                    <p style="color: rgb(245, 247, 245) ; font-family: Arial, Helvetica, sans-serif;"> inconue   </p>
+
+                    {% endif %}
+        </div>
+    {% endfor %}
+                    
+   </div> <br><br><br>  
+      
+  <div  class="GLOBALE">  
+
+  <div class="DIV33">
+     <p style=" background-color: linear-gradient(90deg , #2944da,#527fb9 , #40b0e4);font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Do you like this weather ?</p>  <br><br>
+    <form action="{{gfg}}" method="post">
+      <input type="submit" value="Like" class="inputlike"> <br><br>
+      <input type="hidden" name="etat" id="etat" value="bonne">
+      <input type="hidden" name="cloud" id="cloud" value="{{listdict[0]['cloud']}}">
+      <input type="hidden" id="ville" name="ville"  value="{{ville}}">
+      <input type="hidden" id="jour" name="jour"  value="{{newlyouma}}">
+      <input type="hidden"  name="temp"  id="temp" value="{{listdict[0]['temperature'][:4]}}">
+      <input type="hidden"  name="rain"  id="rain" value="{{listdict[0]['rain']}}">
+      <input type="hidden"  name="wind"  id="wind" value="{{listdict[0]['wind']}}">
+    </form>
+    <form action="{{gfg}}" method="post">
+      <input type="submit" value="Unlike" class="inputunlike">
+      <input type="hidden" name="etat" id="etat" value="mauvaise">
+      <input type="hidden" name="cloud" id="cloud" value="{{listdict[0]['cloud']}}">
+      <input type="hidden" id="ville" name="ville"  value="{{ville}}">
+      <input type="hidden" id="jour" name="jour"  value="{{newlyouma}}">
+      <input type="hidden"  name="temp"  id="temp" value="{{listdict[0]['temperature'][:4]}}">
+      <input type="hidden"  name="rain"  id="rain" value="{{listdict[0]['rain']}}">
+      <input type="hidden"  name="wind"  id="wind" value="{{listdict[0]['wind']}}">
+      </form> 
+    
+</div> 
+
+
+<div class="DIV44">
+
+<!-- <img class="image" src="{{photo1}}"  alt=" no photo" width="30%" ><br> -->
+</div>
+</div>
+
+
+<p > <a href="{{ url_for('gfg')}}"><h4 class="my-button ">modifier</h4></a> </p>
+
+
+
+
+        
+
+
+
+
+
+
+</main></DIV></DIV>
+<p>
+
+
+
+<!-- good{{f1}}
+<br>
+BAD {{f2}} -->
+
+
+  
+</p>
+{% endblock content %}

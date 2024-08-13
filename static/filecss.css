@@ -1,0 +1,225 @@
+BODY{
+    color: black;
+    /* background-color: aliceblue; */
+    margin: 20px 40px 20px 30px;
+    padding:5px 40px 20px 30px;
+    width:20px 70px 20px 30px ;
+    background-position-x: right;}
+holl{
+    background-color: #40b0e4;
+}
+body{
+    background-image: url(sky.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+main{
+        color: black;
+        margin: 20px 40px 20px 30px;
+        padding:5px 40px 20px 30px;
+        width:20px 70px 20px 30px ;
+        background-position-x: right;
+}
+h1 , h2{
+    /* background-color: blue; */
+    color: black;
+    text-shadow:20px;
+    border-width: 20px 30px 20px 20px;
+/* /    /* margin: 0px 250px 0px 300px; */
+    padding:0px 60px 0px 300px;
+
+}
+h3{
+    size: 50px;
+}
+#bor{
+  text-align: center;
+  /* border: solid;
+  box-sizing: 1px; */
+}
+.linear-gra {
+    background: linear-gradient(130deg , #2525c7 , #090c13 , #44daf5 , #53f544 ,#44daf5);
+    -webkit-background-clip:text;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-style:oblique 
+}
+.linear-graaa {
+    background: linear-gradient(130deg , #2525c7 , #090c13 , #44daf5 , #53f544 ,#44daf5 );
+    -webkit-background-clip:text;
+    background-clip: text;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-style:oblique 
+}
+
+.GLOBALE {
+    display: flex;
+    
+}
+.DIV1 {
+    flex: 7;
+    margin-right: 20px;
+
+
+}
+.DIV2 {
+    flex: 3;
+    padding:   0% 0% 0% 3%;
+    border: solid;
+    border-color: #40b0e4;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.bluecolor{
+    background-color: linear-gradient(90deg , #2944da,#527fb9 , #40b0e4);
+}
+
+
+
+span{
+    color: rgb(240, 174, 20);
+    font-size: 25px;
+    background-position-x: center;
+}
+h6{
+    object-position: center;
+}
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #2a93a5;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: 20px; 
+    background-position: 95% center;
+    background-color: rgb(30, 221, 221);
+}
+
+input [type="submit"] {
+    background-color: #8bb8e7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bouton{
+    background-color: #95beeb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#weather{
+    position:50px 60px 30px 30px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.GLOBAaLE {
+    display: flex;
+
+
+    
+}
+.DIV11 {
+    flex: 4;
+    background-image:url('weather.png'); 
+    /* background-image: url("clouds-sky.gif") ; */
+    border: solid;
+    border-radius: 8PX;
+
+    /* background-image:url('tousmetio.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 40px 20px 30px;
+    padding:5px 40px 20px 30px;
+    width:20px 70px 20px 30px ;
+
+}
+.DIV22 {
+    flex: 5;
+    background-image:url('map.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-size: cover;
+    background-size:450px 450px ;
+    margin: 10px 20px 20px 30px;
+    padding:5px 40px 20px;
+    width:20px 20px 10px 5px ;
+}
+.DIV33{
+    flex: 3;
+    
+}
+.DIV44{
+    flex: 8;
+
+}
+.image {
+   
+    width: 450px;
+    height: 300PX;
+    margin: 20px 40px 20px 100px;
+    padding:5px 40px 20px 110px;
+    transform: scaleX(4); 
+  }
+.border{
+    border: none;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 3px ;
+    background: linear-gradient(90deg , #1414e2,#5e81e2 , #47bfee);
+    
+}
+
+gras{
+    font-size: 30px;
+}
+
+.color_sun{
+    color: #d36d0f;
+    font-size: 15px;
+}
+.padding{
+    padding: 0PX 2PX 0PX 0px;
+    margin:  0PX 2PX 0PX 0px;
+}
+
+.my-button {
+    background-color: #2e1ebd; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement intérieur */
+    border: none; /* Suppression de la bordure */
+    border-radius: 5px; /* Arrondi des coins */
+    text-align: center; /* Alignement du texte */
+    text-decoration: none; /* Suppression du soulignement */
+    display: inline-block; /* Affichage en ligne */
+    font-size: 16px; /* Taille de la police */
+    cursor: pointer; /* Curseur au survol */
+}
+.inputlike {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: #53f544;
+    cursor: pointer;
+    /* background-image: url('static/images/like.png'); */
+}
+.inputunlike {
+    background-color: #fd3c19;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
