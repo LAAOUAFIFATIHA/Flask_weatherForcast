@@ -28,7 +28,7 @@ For our research, a variety of data must be gathered and analyzed. First, we can
 
 <div align="center">
   <a href="#">
-    <img src="static/images/clousun.gif" alt="Logo" width="450">
+    <img src="static/images/cloud.png" alt="Logo" width="450">
   </a>
 </div>
 
@@ -45,7 +45,7 @@ Our solution involves a comprehensive analysis of the spectral features of breas
 </div>
 <div align="center">
     <a href="#">
-    <img src="static/images/clousun.gif" alt="Logo">
+    <img src="static/images/hot_sun.gif" alt="Logo">
   </a>
 </div>
 <br>
@@ -57,7 +57,7 @@ Our solution involves a comprehensive analysis of the spectral features of breas
 
 <div align="center">
     <a href="#">
-        <img src="static/images/clousun.gif" alt="Logo">
+        <img src="static/images/moon.png" alt="Logo">
      </a>
 </div>
 <br>
