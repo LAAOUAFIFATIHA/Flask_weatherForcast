@@ -1,5 +1,3 @@
-
-# BREAST-CANCER DETECTION 
 <a name="readme-top"></a>
 <a name="https://www.linkedin.com/in/fatiha-laaouafi-4227252ba/"> linkdin</a>
 
@@ -8,7 +6,7 @@
 <br />
 <div align="center">
   <a href="#">
-    <img src="images/clousun.gif" alt="Logo" width="300">
+    <img src="static/images/clousun.gif" alt="Logo" width="300">
   </a>
   <h1>Weather frocast </h1>
 
@@ -30,7 +28,7 @@ For our research, a variety of data must be gathered and analyzed. First, we can
 
 <div align="center">
   <a href="#">
-    <img src="Images/bresat-cancer.png" alt="Logo" width="450">
+    <img src="static/images/clousun.gif" alt="Logo" width="450">
   </a>
 </div>
 
@@ -47,7 +45,7 @@ Our solution involves a comprehensive analysis of the spectral features of breas
 </div>
 <div align="center">
     <a href="#">
-    <img src="Images/concept.png" alt="Logo">
+    <img src="static/images/clousun.gif" alt="Logo">
   </a>
 </div>
 <br>
@@ -59,7 +57,7 @@ Our solution involves a comprehensive analysis of the spectral features of breas
 
 <div align="center">
     <a href="#">
-        <img src="Images/architecture.png" alt="Logo">
+        <img src="static/images/clousun.gif" alt="Logo">
      </a>
 </div>
 <br>
@@ -74,7 +72,7 @@ Our solution demonstrates superior performance in terms of accuracy, precision, 
 
 <div align="center">
     <a href="#">
-        <img src="Images/result.png" alt="Logo">
+        <img src="static/images/clousun.gif" alt="Logo">
      </a>
 </div>
 
@@ -82,44 +80,7 @@ Our solution demonstrates superior performance in terms of accuracy, precision, 
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-_The project's concept may seem sophisticated, but the steps for getting started are quite simple._
-
-1. Ensure that a connection is established.
-2. Clone the repository:
-   ```
-   git clone https://github.com/bouslama-hamza/ BREAST-CANCER-DETECT-YOLOv8.git
-   ```
-3. Install the required packages:
-    ```
-   pip install ultralytics
-   ```
-4. Run the code:
-    ```python
-   # Import the necessary libraries
-   from ultralytics import YOLO
-   from IPython.display import Image
-    # Load the YOLO model
-   model = YOLO('path/to/your/yolov8.pt')
-    # Make predictions on an image
-   model.predict(
-        source='/your/source/path',
-        show=True,
-        save=True,
-        hide_labels=False,
-        conf=0.5,
-        save_txt=False,
-        save_crop=False,
-        line_thickness=2,
-    )
-    # Display the image
-    Image(filename='your/source/path', width=500)
-    ```
   
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
