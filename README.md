@@ -72,7 +72,7 @@ Our solution demonstrates superior performance in terms of accuracy, precision, 
 
 <div align="center">
     <a href="#">
-        <img src="static/images/clousun.gif" alt="Logo">
+        <img src="static/images/sun_rain.gif" alt="Logo">
      </a>
 </div>
 
