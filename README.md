@@ -34,14 +34,14 @@ For our research, a variety of data must be gathered and analyzed. First, we can
 
 <br>
 <div align="justify">
-This solution addresses the limitations of existing detection methods by providing a more accurate and efficient approach to identifying malignant regions in breast cancer images. By focusing on key spectral features, we can improve the model's performance and interpretability.
+By providing a more precise and effective means of anticipating weather patterns, this system solves the shortcomings of current weather forecasting techniques. By concentrating on the user's expenses and crucial atmospheric conditions.to boost efficiency and raise the precision of weather predictions.
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Project Context
 <div align="justify">
-Our solution involves a comprehensive analysis of the spectral features of breast cancer images, enabling us to identify key characteristics that distinguish malignant regions from benign tissue. By leveraging the YOLOv8 segmentation model,
+Our project entails a thorough examination of the options that the user has selected. It also gives the user the chance to generate his own data, which helps our program learn from it and predicts whether the user will like the weather or not.
 </div>
 <div align="center">
     <a href="#">
@@ -49,10 +49,6 @@ Our solution involves a comprehensive analysis of the spectral features of breas
   </a>
 </div>
 <br>
-<div align="justify">
- we can accurately detect and classify malignant regions in medical images, providing a valuable tool for early cancer detection and diagnosis. Our approach combines advanced machine learning techniques with domain-specific knowledge to enhance the accuracy and efficiency of breast cancer detection, ultimately improving patient outcomes and reducing healthcare costs.
-</div>
-
 ## Project Architecture
 
 <div align="center">
@@ -62,13 +58,12 @@ Our solution involves a comprehensive analysis of the spectral features of breas
 </div>
 <br>
 <div align="justify">
-Our solution leverages the YOLOv8 segmentation model to detect malignant regions in breast cancer images, enabling accurate and efficient diagnosis of the disease. By training the model on a comprehensive dataset of annotated images, we can improve its performance and robustness, achieving superior accuracy and precision in detecting cancerous regions. Our approach involves preprocessing the images to enhance their quality and extract key spectral features, enabling the model to identify malignant regions with high accuracy. By combining advanced machine learning techniques with domain-specific knowledge, we can develop a powerful tool for early cancer detection and diagnosis, improving patient outcomes and reducing healthcare costs.
+Python is the main language used in the implementation of our project, with Flask serving as the framework. HTML and CSS are used for the interface's implementation to provide the greatest possible user experience while maintaining interface simplicity.
 </div>
 
 ## Project Results
 <div align="justify">
-Our solution demonstrates superior performance in terms of accuracy, precision, and recall, achieving an accuracy rate of 96% in detecting malignant regions in breast cancer images. example result can be seen in the following image.
-</div>
+By using the user's past data, the project can now determine whether or not the user would enjoy the weather.</div>
 
 <div align="center">
     <a href="#">
