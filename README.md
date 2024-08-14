@@ -75,10 +75,14 @@ By using the user's past data, the project can now determine whether or not the 
 
 <!-- GETTING STARTED -->
 ## Getting Started
-  
 
 <!-- CONTRIBUTING -->
 ## Contributing
+# install VS 
+in the terminal of VS 
+istall flask 
+>>> pip install flask
+>>> pip install jinja2
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
