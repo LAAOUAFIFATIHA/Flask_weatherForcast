@@ -31,7 +31,7 @@ For our research, a variety of data must be gathered and analyzed. First, we can
 
 <div align="center">
   <a href="#">
-    <img src="static/images/cloud.png" alt="Logo" width="450">
+    <img src="static/images/cloud.png" alt="Logo" width="200">
   </a>
 </div>
 
@@ -48,7 +48,7 @@ Our project entails a thorough examination of the options that the user has sele
 </div>
 <div align="center">
     <a href="#">
-    <img src="static/images/hot_sun.gif" alt="Logo">
+    <img src="static/images/hot_sun.gif" alt="Logo" width="200">
   </a>
 </div>
 <br>
@@ -56,7 +56,7 @@ Our project entails a thorough examination of the options that the user has sele
 
 <div align="center">
     <a href="#">
-        <img src="static/images/moon.png" alt="Logo">
+        <img src="static/images/moon.png" alt="Logo" width="200">
      </a>
 </div>
 <br>
@@ -70,7 +70,7 @@ By using the user's past data, the project can now determine whether or not the 
 
 <div align="center">
     <a href="#">
-        <img src="static/images/sun_rain.gif" alt="Logo">
+        <img src="static/images/sun_rain.gif" alt="Logo" width="200">
      </a>
 </div>
 
