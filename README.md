@@ -1,4 +1,10 @@
 <a name="readme-top"></a>
+
+### 🌐 Find Me Around the Web
+- **Fiverr:** <a href="https://fr.fiverr.com/fatiha_laa?up_rollout=true"> Fiverr</a>
+- **Email:** <a href="laaouafifatiha@gmail.com"> laaouafifatiha@gmail.com </a>
+- **LinkedIn:** <a href="https://www.linkedin.com/in/fatiha-laaouafi-4227252ba/"> Linkdin </a>
+
 <a name="https://www.linkedin.com/in/fatiha-laaouafi-4227252ba/"> linkdin</a>
 
 
