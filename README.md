@@ -1,9 +1,5 @@
 <a name="readme-top"></a>
 
-### 🌐 Find Me Around the Web
-- **Fiverr:** <a href="https://fr.fiverr.com/fatiha_laa?up_rollout=true"> Fiverr</a>
-- **Email:** <a href="laaouafifatiha@gmail.com"> laaouafifatiha@gmail.com </a>
-- **LinkedIn:** <a href="https://www.linkedin.com/in/fatiha-laaouafi-4227252ba/"> Linkdin </a>
 
 <a name="https://www.linkedin.com/in/fatiha-laaouafi-4227252ba/"> linkdin</a>
 
@@ -11,10 +7,11 @@
 <!-- logo-->
 <br />
 <div align="center">
+  #<h1>Weather frocast </h1>
   <a href="#">
     <img src="static/images/clousun.gif" alt="Logo" width="300">
   </a>
-  <h1>Weather frocast </h1>
+  
 
   <h3 align="center"> endeavor to create a personal forecast</h3>
 
@@ -86,6 +83,12 @@ in the terminal of VS
 istall flask 
 >>> pip install flask <br>
 >>> pip install jinja2
+
+### 🌐 Find Me Around the Web
+- **Fiverr:** <a href="https://fr.fiverr.com/fatiha_laa?up_rollout=true"> Fiverr</a>
+- **Email:** <a href="laaouafifatiha@gmail.com"> laaouafifatiha@gmail.com </a>
+- **LinkedIn:** <a href="https://www.linkedin.com/in/fatiha-laaouafi-4227252ba/"> Linkdin </a>
+
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
