@@ -44,7 +44,7 @@ By providing a more precise and effective means of anticipating weather patterns
 
 ## Project Context
 <div align="justify">
-Our project entails a thorough examination of the options that the user has selected. It also gives the user the chance to generate his own data, which helps our program learn from it and predicts whether the user will like the weather or not.
+Our project entails a thorough examination of the options that the user has selected. It also gives the user the chance to generate his own data, which helps our program learn from it and predicts whether the user will like the weather or not .
 </div>
 <div align="center">
     <a href="#">
