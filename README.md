@@ -25,7 +25,7 @@
 </div>
 
 <!-- ABOUT THE PROJECT -->
-## 
+## About The Project
 <div align="justify">
 For our research, a variety of data must be gathered and analyzed. First, we can obtain weather data for each day, week, month, or year from the API where we obtain the information. Subsequently, we gather user data that includes likes and dislikes for the daily weather. This data is loaded into a SQLMyAlchemy database, allowing us to forecast whether or not the user will enjoy the second weather.</div>
 <br>
