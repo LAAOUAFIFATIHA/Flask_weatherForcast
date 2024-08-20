@@ -9,11 +9,10 @@
 <!-- logo-->
 <br />
 <div align="center">
-  <h1>Weather frocast </h1>
+  <h1> Weather Frocast </h1>
   <a href="#">
     <img src="static/images/clousun.gif" alt="Logo" width="200">
   </a>
-  
 
   <h3 align="center"> endeavor to create a personal forecast</h3>
 
