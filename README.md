@@ -1,6 +1,5 @@
 <a name="readme-top"></a>
 
-at this point you will see all the 
 
 <a name="https://www.linkedin.com/in/fatiha-laaouafi-4227252ba/"> linkdin</a> <br>
 - **Email:** <a href="laaouafifatiha@gmail.com"> laaouafifatiha@gmail.com </a>
