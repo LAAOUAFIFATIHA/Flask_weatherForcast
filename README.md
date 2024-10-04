@@ -9,10 +9,13 @@
 
 <img src="static/images/Weather_of_morocco.png"></img>
 
+
+
 <!-- logo-->
 <br />
+<img src="static/images/API.png"></img>
 <div align="center">
-  <h1> Weather Frocast </h1>
+ 
   <a href="#">
     <img src="static/images/clousun.gif" alt="Logo" width="200">
   </a>
