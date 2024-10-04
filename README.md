@@ -13,7 +13,7 @@
 
 <!-- logo-->
 <br />
-<img src="static/images/API.png"></img>
+
 <div align="center">
  
   <a href="#">
